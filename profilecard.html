@@ -1,0 +1,48 @@
+<!--FOCUS: The box model,basic text styling-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROFILE CARD</title>
+    <style>
+        body{
+    background-color:  rgb(242, 130, 194);
+    font-family: Arial, sans-serif;
+    display: flex;/*Centers the card*/
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card{
+    background: rgb(124, 238, 232);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);/*Subtle shadow*/
+    width: 250px;
+}
+
+.avatar{
+    border-radius: 50%;
+    border: 3px solid #3498db;
+    }
+    button{
+        background: #3498db;
+        color:white;
+
+    }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>PROFILE</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS34ye8xdFsttmKarHLy0_F4qqw9KZcVEQDpA&s" alt="Profile" class="avatar" width="200" height="auto">
+        <h2>GSR</h2>
+        <p>Web Developer | Designer</p>
+        <button>Contact Me</button>
+    </div> 
+</body>
+</html>
