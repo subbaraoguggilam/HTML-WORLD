@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        .gallery{
+    display:grid;
+    gap:15px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding:20px;
+
+}
+.item{
+    background-color:#ddd;
+    height:200px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 1.5rem;
+    font-weight:bold;
+    color:#555;
+    border-radius: 8px;
+}
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <div class="item">Image1</div>
+        <div class="item">Image2</div>
+        <div class="item">Image3</div>
+        <div class="item">Image4</div>
+        <div class="item">Image5</div>
+        <div class="item">Image6</div>
+
+    </div>
+</body>
+</html>
